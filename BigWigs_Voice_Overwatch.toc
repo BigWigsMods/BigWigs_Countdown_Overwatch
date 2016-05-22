@@ -1,0 +1,9 @@
+## Interface: 60200
+## Title: Big Wigs |cffff7f3f+|r|cffffffffVoice: Overwatch|r
+## Author: Neb
+## Version: 1.0
+## LoadOnDemand: 1
+## Dependencies: BigWigs
+## X-BigWigs-LoadOn-CoreEnabled: 1
+
+Core.lua
