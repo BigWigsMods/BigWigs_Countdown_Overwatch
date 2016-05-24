@@ -15,7 +15,6 @@ local heroes = {
 	"Reinhardt",
 	"Roadhog",
 	"Soldier76",
-	"Sombra",
 	"Symmetra",
 	"Torbjorn",
 	"Tracer",
