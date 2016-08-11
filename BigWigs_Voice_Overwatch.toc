@@ -1,5 +1,5 @@
 ## Interface: 70000
-## Title: Big Wigs |cffff7f3f+|r|cffffffffVoice: Overwatch|r
+## Title: BigWigs |cffff7f3f+|r|cffffffffVoice: Overwatch|r
 ## Author: Neb
 ## Version: 1.0
 ## LoadOnDemand: 1
