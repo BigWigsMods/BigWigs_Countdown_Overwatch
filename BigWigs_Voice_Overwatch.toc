@@ -1,7 +1,7 @@
-## Interface: 70000
+## Interface: 70100
 ## Title: BigWigs |cffff7f3f+|r|cffffffffVoice: Overwatch|r
 ## Author: Neb
-## Version: 1.0
+## Version: @project-version@
 ## LoadOnDemand: 1
 ## Dependencies: BigWigs
 ## X-BigWigs-LoadOn-CoreEnabled: 1
