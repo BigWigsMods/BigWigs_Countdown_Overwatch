@@ -1,6 +1,7 @@
 
 local heroes = {
 	"Announcer",
+	"Ana",
 	"Bastion",
 	"D.Va",
 	"Genji",
