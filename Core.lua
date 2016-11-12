@@ -27,10 +27,9 @@ local heroes = {
 local key = "English: Overwatch: %s"
 local path = "Interface\\AddOns\\BigWigs_Voice_Overwatch\\enUS\\%s_%d.ogg"
 
-local plugin = BigWigs:GetPlugin("Super Emphasize")
 for i = 1, #heroes do
 	local hero = heroes[i]
-	plugin:RegisterVoice(key:format(hero), {
+	BigWigsAPI:RegisterCountdown(key:format(hero), {
 		path:format(hero, 1), 
 		path:format(hero, 2),
 		path:format(hero, 3),
