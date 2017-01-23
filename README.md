@@ -1,4 +1,4 @@
-# BigWigs_Voice_Overwatch
+# BigWigs_Countdown_Overwatch
 
 **This addon is a BigWigs plugin and requires BigWigs to run.**
 
@@ -9,4 +9,4 @@ Only the English locale is included. I do hope add other locales as soon as Over
 The default countdown voice is set in Sounds in the BigWigs options (/bw). You can also enable countdown per ability and change the voice for it in that ability's Sounds tab.
 
 #### Download
-https://mods.curse.com/addons/wow/bigwigs_voice_overwatch
+https://mods.curse.com/addons/wow/bigwigs_countdown_overwatch
