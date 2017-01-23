@@ -1,4 +1,11 @@
 
+if BigWigsAPI:HasCountdown("English: Overwatch: Tracer") or GetAddOnEnableState(UnitName("player"), "BigWigs_Voice_Overwatch") > 0 then
+	C_Timer.After(7, function()
+		print("|cFF33FF99BigWigs_Voice_Overwatch|r has been renamed to |cFF33FF99BigWigs_Countdown_Overwatch|r and you seem to have both addons enabled! Please remove the old |cFF33FF99BigWigs_Voice_Overwatch|r folder from your Interface/AddOns folder to ensure you're using the correct version.")
+	end)
+	return
+end
+
 local heroes = {
 	"Announcer",
 	"Ana",
