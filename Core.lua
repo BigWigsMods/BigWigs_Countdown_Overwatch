@@ -26,7 +26,7 @@ local heroes = {
 	"Zenyatta",
 }
 local key = "English: Overwatch: %s"
-local path = "Interface\\AddOns\\BigWigs_Voice_Overwatch\\enUS\\%s_%d.ogg"
+local path = "Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\%s_%d.ogg"
 
 for i = 1, #heroes do
 	local hero = heroes[i]
