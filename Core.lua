@@ -10,6 +10,7 @@ local heroes = {
 	"Announcer",
 	"Ana",
 	"Bastion",
+	"Brigitte",
 	"D.Va",
 	"Doomfist",
 	"Genji",
