@@ -26,6 +26,7 @@ local heroes = {
 	["Tracer"] = "Tracer",
 	["Widowmaker"] = "Widowmaker",
 	["Winston"] = "Winston",
+	["WreckingBall"] = "Wrecking Ball",
 	["Zarya"] = "Zarya",
 	["Zenyatta"] = "Zenyatta",
 }
