@@ -3,10 +3,10 @@ local L = ns.L
 
 local localeMap = {
 	enUS = "English",
-	-- deDE = "Deutsch",
+	deDE = "Deutsch",
 	-- esES = "Español (es)",
 	-- esMX = "Español (mx)",
-	-- frFR = "Français",
+	frFR = "Français",
 	-- itIT = "Italiano",
 	-- koKR = "한국어",
 	-- ptBR = "Português",
