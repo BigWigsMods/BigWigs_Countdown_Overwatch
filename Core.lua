@@ -23,6 +23,7 @@ local heroes = {
 	Announcer = "Athena",
 	Ana = "Ana",
 	Ashe = "Ashe",
+	Baptiste = "Baptiste",
 	Bastion = "Bastion",
 	Brigitte = "Brigitte",
 	DVa = "D.Va",
