@@ -2,8 +2,6 @@ local _, ns = ...
 ns.L = {}
 local L = ns.L
 
-L.key = "%s: Overwatch: %s"
-
 local locale = GetLocale()
 if locale == "frFR" then
 

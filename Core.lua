@@ -24,7 +24,7 @@ local heroes = {
 	Ana = "Ana",
 	Ashe = "Ashe",
 	Baptiste = "Baptiste",
-	-- Bastion = "Bastion",
+	Bastion = "Bastion",
 	Brigitte = "Brigitte",
 	DVa = "D.Va",
 	Doomfist = "Doomfist",
@@ -53,26 +53,28 @@ local heroes = {
 	Zenyatta = "Zenyatta",
 }
 
-local lang = localeMap[locale]
-local path = "Interface\\AddOns\\BigWigs_Countdown_Overwatch\\"..locale.."\\%s_%d.ogg"
+local function register(locale)
+	local lang = localeMap[locale]
+	local path = "Interface\\AddOns\\BigWigs_Countdown_Overwatch\\"..locale.."\\%s_%d.ogg"
+	local key = locale ~= "enUS" and L.key or "%s: Overwatch: %s"
 
-for k, v in next, heroes do
-	local id = ("%s: Overwatch: %s"):format(lang, k)
-	local name = L.key:format(lang, L[k] or v)
-	BigWigsAPI:RegisterCountdown(id, name, {
-		path:format(k, 1),
-		path:format(k, 2),
-		path:format(k, 3),
-		path:format(k, 4),
-		path:format(k, 5),
-	})
+	for k, v in next, heroes do
+		local id = ("%s: Overwatch: %s"):format(lang, k)
+		local name = key:format(lang, locale ~= "enUS" and L[k] or v)
+		if k == "Bastion" then -- Bastion beeps and boops are the same for all locales
+			path = "Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\%s_%d.ogg"
+		end
+		BigWigsAPI:RegisterCountdown(id, name, {
+			path:format(k, 1),
+			path:format(k, 2),
+			path:format(k, 3),
+			path:format(k, 4),
+			path:format(k, 5),
+		})
+	end
 end
 
--- Bastion beeps and boops are the same for all locales
-BigWigsAPI:RegisterCountdown(("%s: Overwatch: %s"):format(lang, "Bastion"), L.key:format(lang, L["Bastion"] or "Bastion"), {
-	"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_1.ogg",
-	"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_2.ogg",
-	"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_3.ogg",
-	"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_4.ogg",
-	"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_5.ogg",
-})
+register(locale)
+if locale ~= "enUS" then
+	register("enUS")
+end
