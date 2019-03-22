@@ -10,7 +10,7 @@ local localeMap = {
 	-- itIT = "Italiano",
 	-- koKR = "한국어",
 	-- ptBR = "Português",
-	-- ruRU = "Русский",
+	ruRU = "Русский",
 	-- zhCN = "简体中文",
 	-- zhTW = "繁體中文",
 }
@@ -24,7 +24,7 @@ local heroes = {
 	Ana = "Ana",
 	Ashe = "Ashe",
 	Baptiste = "Baptiste",
-	Bastion = "Bastion",
+	-- Bastion = "Bastion",
 	Brigitte = "Brigitte",
 	DVa = "D.Va",
 	Doomfist = "Doomfist",
@@ -67,3 +67,12 @@ for k, v in next, heroes do
 		path:format(k, 5),
 	})
 end
+
+-- Bastion beeps and boops are the same for all locales
+BigWigsAPI:RegisterCountdown(("%s: Overwatch: %s"):format(lang, "Bastion"), L.key:format(lang, L["Bastion"] or "Bastion"), {
+	"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_1.ogg",
+	"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_2.ogg",
+	"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_3.ogg",
+	"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_4.ogg",
+	"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_5.ogg",
+})
