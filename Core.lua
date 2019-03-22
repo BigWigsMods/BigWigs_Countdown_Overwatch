@@ -12,7 +12,7 @@ local localeMap = {
 	-- ptBR = "Português",
 	ruRU = "Русский",
 	-- zhCN = "简体中文",
-	-- zhTW = "繁體中文",
+	zhTW = "繁體中文",
 }
 local locale = GetLocale()
 if not localeMap[locale] then
