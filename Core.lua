@@ -11,7 +11,7 @@ local localeMap = {
 	koKR = "한국어",
 	-- ptBR = "Português",
 	ruRU = "Русский",
-	-- zhCN = "简体中文",
+	zhCN = "简体中文",
 	zhTW = "繁體中文",
 }
 local locale = GetLocale()
