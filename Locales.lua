@@ -22,8 +22,6 @@ L.Soldier76 = "Soldato-76"
 
 elseif locale == "koKR" then
 
-L.key = "%s: Overwatch: %s"
-
 L.Announcer = "아테나"
 L.Ana = "아나"
 L.Ashe = "애쉬"
