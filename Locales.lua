@@ -3,7 +3,11 @@ ns.L = {}
 local L = ns.L
 
 local locale = GetLocale()
-if locale == "frFR" then
+if locale == "esMX" then
+
+L.DVa = "D.VA"
+
+elseif locale == "frFR" then
 
 L.key = "%s : Overwatch : %s"
 
@@ -18,6 +22,7 @@ L.WreckingBall = "Bouldozer"
 
 elseif locale == "itIT" then
 
+L.DVa = "D.VA"
 L.Soldier76 = "Soldato-76"
 
 elseif locale == "koKR" then
