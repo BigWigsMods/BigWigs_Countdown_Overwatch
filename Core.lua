@@ -61,11 +61,11 @@ local function register(locale)
 		if k == "Bastion" then
 			-- Bastion beeps and boops are the same for all locales
 			BigWigsAPI:RegisterCountdown(id, name, {
-				("Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\%s_%d.ogg"):format(k, 1),
-				("Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\%s_%d.ogg"):format(k, 2),
-				("Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\%s_%d.ogg"):format(k, 3),
-				("Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\%s_%d.ogg"):format(k, 4),
-				("Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\%s_%d.ogg"):format(k, 5),
+				"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_1.ogg",
+				"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_2.ogg",
+				"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_3.ogg",
+				"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_4.ogg",
+				"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_5.ogg",
 			})
 		else
 			BigWigsAPI:RegisterCountdown(id, name, {
