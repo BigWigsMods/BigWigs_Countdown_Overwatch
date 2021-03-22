@@ -37,6 +37,7 @@ local heroes = {
 	Reaper = "Reaper",
 	Reinhardt = "Reinhardt",
 	Roadhog = "Roadhog",
+	Sigma = "Sigma",
 	Soldier76 = "Soldier: 76",
 	Sombra = "Sombra",
 	Symmetra = "Symmetra",
