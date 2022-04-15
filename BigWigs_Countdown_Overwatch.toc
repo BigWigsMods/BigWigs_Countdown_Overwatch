@@ -15,6 +15,8 @@
 ## Author: Neb
 ## Version: @project-version@
 ## Dependencies: BigWigs
+## X-Curse-Project-ID: 100172
+## X-WoWI-ID: 26066
 
 Locales.lua
 Core.lua

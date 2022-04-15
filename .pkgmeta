@@ -1,5 +1,3 @@
 package-as: BigWigs_Countdown_Overwatch
-
-ignore:
-  - BigWigs_Countdown_Overwatch-Classic.toc
-  - BigWigs_Countdown_Overwatch-BCC.toc
+enable-toc-creation: yes
+wowi-archive-previous: no
