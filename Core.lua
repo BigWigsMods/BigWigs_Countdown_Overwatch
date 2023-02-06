@@ -39,6 +39,7 @@ local heroes = {
 	Reinhardt = "Reinhardt",
 	Roadhog = "Roadhog",
 	Sigma = "Sigma",
+	Sojourn = "Sojourn",
 	Soldier76 = "Soldier: 76",
 	Sombra = "Sombra",
 	Symmetra = "Symmetra",
@@ -54,6 +55,7 @@ local heroes = {
 -- After Sigma, all the countdowns were changed to 3..2..1 :\
 local three = {
 	Echo = true,
+	Sojourn = true,
 }
 
 local function register(locale)
