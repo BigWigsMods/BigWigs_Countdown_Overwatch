@@ -81,13 +81,21 @@ local function register(locale)
 				"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_4.ogg",
 				"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_5.ogg",
 			})
+		elseif three[k] then
+			BigWigsAPI:RegisterCountdown(id, ("%s [3]"):format(name), {
+				path:format(k, 1),
+				path:format(k, 2),
+				path:format(k, 3),
+				false,
+				false,
+			})
 		else
 			BigWigsAPI:RegisterCountdown(id, name, {
 				path:format(k, 1),
 				path:format(k, 2),
 				path:format(k, 3),
-				not three[id] and path:format(k, 4) or nil,
-				not three[id] and path:format(k, 5) or nil,
+				path:format(k, 4),
+				path:format(k, 5),
 			})
 		end
 	end
