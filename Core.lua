@@ -37,6 +37,7 @@ local heroes = {
 	Moira = "Moira",
 	Orisa = "Orisa",
 	Pharah = "Pharah" ,
+	Ramattra = "Ramattra",
 	Reaper = "Reaper",
 	Reinhardt = "Reinhardt",
 	Roadhog = "Roadhog",
@@ -60,6 +61,7 @@ local three = {
 	Sojourn = true,
 	JunkerQueen = true,
 	Kiriko = true,
+	Ramattra = true,
 }
 
 local function register(locale)
