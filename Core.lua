@@ -25,6 +25,7 @@ local heroes = {
 	McCree = "Cassidy",
 	DVa = "D.Va",
 	Doomfist = "Doomfist",
+	Echo = "Echo",
 	Genji = "Genji",
 	Hanzo = "Hanzo",
 	Junkrat = "Junkrat",
@@ -50,6 +51,11 @@ local heroes = {
 	Zenyatta = "Zenyatta",
 }
 
+-- After Sigma, all the countdowns were changed to 3..2..1 :\
+local three = {
+	Echo = true,
+}
+
 local function register(locale)
 	local lang = localeMap[locale]
 	local path = "Interface\\AddOns\\BigWigs_Countdown_Overwatch\\"..locale.."\\%s_%d.ogg"
@@ -72,8 +78,8 @@ local function register(locale)
 				path:format(k, 1),
 				path:format(k, 2),
 				path:format(k, 3),
-				path:format(k, 4),
-				path:format(k, 5),
+				not three[id] and path:format(k, 4) or nil,
+				not three[id] and path:format(k, 5) or nil,
 			})
 		end
 	end
