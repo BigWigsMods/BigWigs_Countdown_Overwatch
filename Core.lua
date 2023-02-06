@@ -28,6 +28,7 @@ local heroes = {
 	Echo = "Echo",
 	Genji = "Genji",
 	Hanzo = "Hanzo",
+	JunkerQueen = "Junker Queen",
 	Junkrat = "Junkrat",
 	Lucio = "Lúcio",
 	Mei = "Mei",
@@ -56,6 +57,7 @@ local heroes = {
 local three = {
 	Echo = true,
 	Sojourn = true,
+	JunkerQueen = true,
 }
 
 local function register(locale)
