@@ -13,6 +13,7 @@
 ## Title-ruRU: BigWigs |cffff7f3f+|r|cffffffffОбратный отсчет: Overwatch|r
 ## Title-zhCN: BigWigs |cffff7f3f+|r|cffffffff倒数：守望先锋|r
 ## Title-zhTW: BigWigs |cffff7f3f+|r|cffffffff倒數：鬥陣特攻|r
+## IconTexture: Interface\AddOns\BigWigs\Media\Icons\core-enabled
 ## Author: Neb
 ## Version: @project-version@
 ## Dependencies: BigWigs
