@@ -31,6 +31,7 @@ local heroes = {
 	JunkerQueen = "Junker Queen",
 	Junkrat = "Junkrat",
 	Kiriko = "Kiriko",
+	Lifeweaver = "Lifeweaver",
 	Lucio = "Lúcio",
 	Mei = "Mei",
 	Mercy = "Mercy",
@@ -60,6 +61,7 @@ local three = {
 	Echo = true,
 	Sojourn = true,
 	JunkerQueen = true,
+	Lifeweaver = true,
 	Kiriko = true,
 	Ramattra = true,
 }
