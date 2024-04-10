@@ -16,3 +16,5 @@ ability and change the voice for it in that ability's "Sounds" tab.
 ## Download
 
 <https://www.curseforge.com/wow/addons/bigwigs_countdown_overwatch>
+
+<https://addons.wago.io/addons/bigwigs-countdown-overwatch>

@@ -19,6 +19,7 @@
 ## Dependencies: BigWigs
 ## X-Curse-Project-ID: 100172
 ## X-WoWI-ID: 26066
+## X-Wago-ID: O67j8pN3
 
 Locales.lua
 Core.lua
