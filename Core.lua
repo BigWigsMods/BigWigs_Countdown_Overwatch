@@ -34,6 +34,7 @@ local heroes = {
 	Kiriko = "Kiriko",
 	Lifeweaver = "Lifeweaver",
 	Lucio = "Lúcio",
+	Mauga = "Mauga",
 	Mei = "Mei",
 	Mercy = "Mercy",
 	Moira = "Moira",
@@ -66,6 +67,7 @@ local three = {
 	Kiriko = true,
 	Ramattra = true,
 	Illari = true,
+	Mauga = true,
 }
 
 local function register(locale)
