@@ -58,6 +58,7 @@ local heroes = {
 	Widowmaker = "Widowmaker",
 	Winston = "Winston",
 	WreckingBall = "Wrecking Ball",
+	Wuyang = "Wuyang",
 	Zarya = "Zarya",
 	Zenyatta = "Zenyatta",
 }
