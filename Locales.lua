@@ -7,6 +7,10 @@ if locale == "esMX" then
 
 L.DVa = "D.VA"
 
+elseif locale == "deDE" then
+
+L.Domina = "Dominia"
+
 elseif locale == "frFR" then
 
 L.key = "%s : Overwatch : %s"
@@ -76,6 +80,14 @@ L.WreckingBall = "레킹볼"
 L.Wuyang = "우양"
 L.Zarya = "자리야"
 L.Zenyatta = "젠야타"
+L.Vendetta = "벤데타"
+L.Anran = "안란"
+L.Domina = "도미나"
+L.Emre = "엠레"
+L.Mizuki = "미즈키"
+L.JetpackCat = "제트팩 캣"
+L.Sierra = "시에라"
+L.Shion = "시온"
 
 elseif locale == "ptBR" then
 
@@ -128,6 +140,14 @@ L.WreckingBall = "Таран"
 L.Wuyang = "У Ян"
 L.Zarya = "Заря"
 L.Zenyatta = "Дзенъятта"
+L.Vendetta = "Вендетта"
+L.Anran = "Ань Жань"
+L.Domina = "Домина"
+L.Emre = "Эмре"
+L.Mizuki = "Мидзуки"
+L.JetpackCat = "Реактивная Киса"
+L.Sierra = "Сьерра"
+L.Shion = "Сион"
 
 elseif locale == "zhCN" then
 
@@ -177,7 +197,14 @@ L.WreckingBall = "火爆鋼球"
 L.Wuyang = "无漾"
 L.Zarya = "札莉雅"
 L.Zenyatta = "禪亞塔"
-
+L.Vendetta = "斩仇"
+L.Anran = "安燃"
+L.Domina = "金驭"
+L.Emre = "埃姆雷"
+L.Mizuki = "瑞稀"
+L.JetpackCat = "飞天猫"
+L.Sierra = "西拉"
+L.Shion = "死怨"
 
 elseif locale == "zhTW" then
 
@@ -227,5 +254,13 @@ L.WreckingBall = "破坏球"
 L.Wuyang = "無漾"
 L.Zarya = "查莉娅"
 L.Zenyatta = "禅雅塔"
+L.Vendetta = "宿怨"
+L.Anran = "安燃"
+L.Domina = "多米娜"
+L.Emre = "伊默"
+L.Mizuki = "瑞稀"
+L.JetpackCat = "火箭貓"
+L.Sierra = "席艾拉"
+L.Shion = "死怨"
 
 end

@@ -18,19 +18,23 @@ local localeMap = {
 local heroes = {
 	Announcer = "Athena",
 	Ana = "Ana",
+	Anran = "Anran",
 	Ashe = "Ashe",
 	Baptiste = "Baptiste",
 	Bastion = "Bastion",
 	Brigitte = "Brigitte",
 	McCree = "Cassidy",
 	DVa = "D.Va",
+	Domina = "Domina",
 	Doomfist = "Doomfist",
 	Echo = "Echo",
+	Emre = "Emre",
 	Freja = "Freja",
 	Genji = "Genji",
 	Hanzo = "Hanzo",
 	Hazard = "Hazard",
 	Illari = "Illari",
+	JetpackCat = "Jetpack Cat",
 	JunkerQueen = "Junker Queen",
 	Junkrat = "Junkrat",
 	Juno = "Juno",
@@ -40,6 +44,7 @@ local heroes = {
 	Mauga = "Mauga",
 	Mei = "Mei",
 	Mercy = "Mercy",
+	Mizuki = "Mizuki",
 	Moira = "Moira",
 	Orisa = "Orisa",
 	Pharah = "Pharah" ,
@@ -47,6 +52,8 @@ local heroes = {
 	Reaper = "Reaper",
 	Reinhardt = "Reinhardt",
 	Roadhog = "Roadhog",
+	Shion = "Shion",
+	Sierra = "Sierra",
 	Sigma = "Sigma",
 	Sojourn = "Sojourn",
 	Soldier76 = "Soldier: 76",
@@ -54,6 +61,7 @@ local heroes = {
 	Symmetra = "Symmetra",
 	Torbjorn = "Torbjörn",
 	Tracer = "Tracer",
+	Vendetta = "Vendetta",
 	Venture = "Venture",
 	Widowmaker = "Widowmaker",
 	Winston = "Winston",
@@ -82,7 +90,7 @@ local five = {
 	Mercy = true,
 	Moira = true,
 	Orisa = true,
-	Pharah = "Pharah" ,
+	Pharah = true,
 	Reaper = true,
 	Reinhardt = true,
 	Roadhog = true,
@@ -115,6 +123,15 @@ local function register(locale)
 				"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_3.ogg",
 				"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_4.ogg",
 				"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\Bastion_5.ogg",
+			})
+		elseif k == "JetpackCat" then
+			-- Jetpack Cat meows are the same for all locales
+			BigWigsAPI:RegisterCountdown(id, ("%s [3]"):format(name), {
+				"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\JetpackCat_1.ogg",
+				"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\JetpackCat_2.ogg",
+				"Interface\\AddOns\\BigWigs_Countdown_Overwatch\\enUS\\JetpackCat_3.ogg",
+				false,
+				false,
 			})
 		elseif five[k] then
 			BigWigsAPI:RegisterCountdown(id, name, {
